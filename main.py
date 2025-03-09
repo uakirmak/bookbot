@@ -1,4 +1,4 @@
-from stats import get_word_count
+from stats import get_word_count, get_char_count
 
 with open('/Users/umitakirmak/Desktop/StudyProjects/BootDev/workspace/github.com/uakirmak/bookbot/books/frankenstein.txt', 'r') as file:
     file_contents = file.read()
@@ -6,3 +6,5 @@ with open('/Users/umitakirmak/Desktop/StudyProjects/BootDev/workspace/github.com
 
 
 print(get_word_count(file_contents))
+
+print(get_char_count(file_contents))
